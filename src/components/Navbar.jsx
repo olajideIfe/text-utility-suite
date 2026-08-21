@@ -13,7 +13,7 @@ const Navbar = ({ page, setPage }) => {
   return (
     <>
       {/* //   Desktop Navbar */}
-      <nav className="hidden md:block bg-purple-700 w-72 min-h-screen border-b border-slate-200">
+      <nav className="hidden md:block fixed left-0 top-0 bg-purple-700 w-72 min-h-screen border-b border-slate-200">
         <div className=" px-6 py-4 flex items-center gap-3">
           <img
             src={logo}
